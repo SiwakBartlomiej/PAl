@@ -1,0 +1,5 @@
+<h3>Czy na pewno chcesz usunąć książkę <?= $tytul ?>?</h3>
+<?= $this->form()->openTag($form) ?>
+<?= $this->formSubmit($form->get('Tak')) ?>
+<?= $this->formSubmit($form->get('Nie')) ?>
+<?= $this->form()->closeTag($form) ?>
